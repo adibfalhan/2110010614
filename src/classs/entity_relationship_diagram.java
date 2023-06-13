@@ -9,8 +9,8 @@ package classs;
  * @author HP
  */
 public class entity_relationship_diagram {
-    private String pelanggan, kategori;
-    private int ongkir, transaksi;
+    String pelanggan, kategori;
+    int ongkir;
     
      public void setPelanggan(String qq){
         pelanggan = qq;        
@@ -20,13 +20,10 @@ public class entity_relationship_diagram {
         kategori = ww;
     }
      
-    public void setOngkir(int rr){
+    public void setOngkir(int rr){ 
         ongkir = rr;
     } 
     
-    public void setTransaksi(int pp){
-        transaksi = pp;
-    } 
     
     public String getPelanggan()
     {
@@ -42,9 +39,5 @@ public class entity_relationship_diagram {
     {
         return ongkir;
     }        
-      
-      public int getTransaksi()
-    {
-        return transaksi;
-    }        
+            
 }
